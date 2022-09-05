@@ -7,7 +7,9 @@ Color kPrimaryColor = Color(0xff363740);
 Color kLightBlue = Color(0xffDDE2FF);
 Color kgreyColor = Color(0xff9FA2B4);
 Color kgreyColor2 = Color(0xffA4A6B3);
-Color kgreyColor3 = Color(0xff363740);
+Color kyBlackColor = Color(0xff363740);
+Color kgreyColor4 = Color(0xffDFE0EB);
+
 Color kTransparentColor = Colors.transparent;
 
 TextStyle lightTextStyle = GoogleFonts.mulish(
