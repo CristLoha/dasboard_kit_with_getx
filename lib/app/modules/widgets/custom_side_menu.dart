@@ -14,8 +14,6 @@ class SideMenu extends GetView<HomeController> {
     required this.onPress,
     required this.title,
     required this.selectColor,
-
-    // required this.active,
     required this.icon,
     Key? key,
   }) : super(key: key);
@@ -24,33 +22,52 @@ class SideMenu extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Obx(
       () => InkWell(
-        // hoverColor: kgreyColor,
+        hoverColor: kgreyColor.withOpacity(0.10),
         onTap: onPress,
         child: Container(
           width: 256,
           height: 60,
-          child: Padding(
-            padding: const EdgeInsets.only(left: 32),
-            child: Row(
-              children: [
-                SvgPicture.asset(
-                  icon,
-                  color: controller.selected[selectColor]
-                      ? kLightBlue
-                      : kgreyColor,
-                ),
-                SizedBox(width: 25),
-                Text(
-                  title,
-                  style: lightTextStyle.copyWith(
-                    fontSize: 16,
-                    color: controller.selected[selectColor]
-                        ? kLightBlue
-                        : kgreyColor,
+          child: Row(
+            children: [
+              SizedBox(width: 2),
+              Stack(
+                alignment: Alignment.topLeft,
+                children: [
+                  Container(
+                    width: 3,
+                    height: 60,
+                    decoration: BoxDecoration(
+                      color: controller.selected[selectColor]
+                          ? kLightBlue
+                          : kTransparentColor,
+                    ),
                   ),
+                ],
+              ),
+              Padding(
+                padding: const EdgeInsets.only(left: 32),
+                child: Row(
+                  children: [
+                    SvgPicture.asset(
+                      icon,
+                      color: controller.selected[selectColor]
+                          ? kLightBlue
+                          : kgreyColor,
+                    ),
+                    SizedBox(width: 25),
+                    Text(
+                      title,
+                      style: lightTextStyle.copyWith(
+                        fontSize: 16,
+                        color: controller.selected[selectColor]
+                            ? kLightBlue
+                            : kgreyColor,
+                      ),
+                    ),
+                  ],
                 ),
-              ],
-            ),
+              ),
+            ],
           ),
           decoration: BoxDecoration(
             color: controller.selected[selectColor]
