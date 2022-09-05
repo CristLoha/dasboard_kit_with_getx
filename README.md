@@ -1,4 +1,5 @@
 Credit design: https://www.figma.com/community/file/809559910249051285
+
 Credit tutorial:
 1.  Getx CLI tutorial English: https://www.youtube.com/watch?v=KBdVQB5z86E&t=74s
     Getx Cli tutorial Indonesia: https://www.youtube.com/watch?v=qELR-RIB5vY&t=502s
