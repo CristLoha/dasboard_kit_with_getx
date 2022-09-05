@@ -1,16 +1,5 @@
-# dasboard_kit_with_getx
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Credit design: https://www.figma.com/community/file/809559910249051285
+Credit tutorial:
+1.  Getx CLI tutorial English: https://www.youtube.com/watch?v=KBdVQB5z86E&t=74s
+    Getx Cli tutorial Indonesia: https://www.youtube.com/watch?v=qELR-RIB5vY&t=502s
+2. Flutter Web App Development | Static Web App | Part - 1 | Speed Code | Progressive Web App : https://www.youtube.com/watch?v=7ZB_z_N-9bo
