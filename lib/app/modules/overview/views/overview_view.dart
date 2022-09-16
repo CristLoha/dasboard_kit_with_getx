@@ -10,8 +10,8 @@ class OverviewView extends GetView<OverviewController> {
     return Scaffold(
       body: Center(
         child: Text(
-          'OverviewView is working',
-          style: TextStyle(fontSize: 20),
+          'OVERVIEW PAGE',
+          style: TextStyle(fontSize: 90),
         ),
       ),
     );
