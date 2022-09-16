@@ -10,7 +10,7 @@ dependencies:
   get: 4.6.5
   google_fonts: 3.0.1
   flutter_svg: 1.1.4
-  data_table_2: 2.3.7
+  draggable_scrollbar: 0.1.0
   flutter: 
     sdk: flutter
 
