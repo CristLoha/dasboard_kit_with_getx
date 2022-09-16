@@ -10,8 +10,8 @@ void main() {
     GetMaterialApp(
       theme: ThemeData(
         scrollbarTheme: ScrollbarThemeData().copyWith(
-          thumbColor:
-              MaterialStateProperty.all(kPrimaryColor), //color for scrollbar
+          thumbColor: MaterialStateProperty.all(
+              kgreyColor4.withOpacity(0.4)), //color for scrollbar
         ),
       ),
       debugShowCheckedModeBanner: false,
