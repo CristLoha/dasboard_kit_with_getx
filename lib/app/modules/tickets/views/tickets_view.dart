@@ -797,7 +797,7 @@ class TicketsView extends GetView<TicketsController> {
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
-                          Text('Simon'),
+                          Text(''),
                         ],
                       ),
                     ),
