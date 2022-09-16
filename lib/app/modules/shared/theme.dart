@@ -14,6 +14,8 @@ Color kBlackColor2 = Color(0xff252733);
 Color kgreyColor4 = Color(0xffDFE0EB);
 Color kgreyColor5 = Color(0xffC5C7CD);
 Color kredColor = Color(0xffF12B2C);
+Color kYellowColor = Color(0xffFEC400);
+Color kgreenColor = Color(0xff29CC97);
 
 Color kTransparentColor = Colors.transparent;
 
