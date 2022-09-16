@@ -10,6 +10,7 @@ class TicketsView extends GetView<TicketsController> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      /// Custom Scrollbar
       body: ScrollConfiguration(
         behavior: ScrollConfiguration.of(context).copyWith(scrollbars: false),
         child: DraggableScrollbar(
